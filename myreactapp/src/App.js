@@ -7,6 +7,8 @@ import Navbar from './components/Navbar';
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 
+//import './CubismSdkForWeb-4-r.7/Samples/TypeScript/Demo/src/main.ts';
+
 function App() {
   return (
     <div className="App"> 
@@ -20,3 +22,5 @@ function App() {
 }
 
 export default App;
+
+// oluwarotimi.randle@wits.ac.za
