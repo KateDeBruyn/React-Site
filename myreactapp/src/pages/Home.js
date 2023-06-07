@@ -9,7 +9,8 @@ export default class Home extends Component {
         <div className='headerContainer'>
           <h1>The Rose Garden</h1>
           <p>Home of Keightyrose</p>
-        </div>
+          <iframe width={1280} height={720} src='../assets/CubismSdkForWeb-4-r.7/Samples/TypeScript/Demo/index.html'></iframe>
+        </div> 
       </div>
     )
   }

@@ -64,3 +64,8 @@
         color: white;
     }
 }
+
+.modelView{
+    margin: 0;
+    overflow: hidden;
+}
