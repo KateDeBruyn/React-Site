@@ -16,7 +16,7 @@
     width: 70vw;
     height: auto;
     display: grid;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .menuItem:hover{
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 4px 12px;
     transition: 0.5s ease-in-out;
     cursor: pointer;
 }
@@ -48,4 +48,16 @@
 
 .menuItem h1, menuItem p{
     margin-left: 10px;
+}
+
+@media only screen and (max-width: 1300px) {
+    .menuList{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .menuList{
+        grid-template-columns: 1fr;
+    }
 }

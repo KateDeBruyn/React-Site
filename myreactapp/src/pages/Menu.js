@@ -8,13 +8,16 @@ export default class Menu extends Component {
     return (
       <div className='menu'>
         <h1 className='menuTitle'>Theory Page</h1>
-        <div>
+        <h2>Provisional but non-functional Layout</h2>
+        <div className='menuList'>
             {MenuList.map((menuItem, value) => {
                 return(
                     <MenuItem value={value} name={menuItem.name} image={menuItem.image} description={menuItem.description}/>
                 )
             })}
         </div>
+        <h2 className='menuTitle'>Theory Content</h2>
+        <article></article>
       </div>
     )
   }
