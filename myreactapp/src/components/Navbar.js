@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Logo from '../assets/emote_hey.png';
+import Logo from '../assets/emotes/emote_hey.png';
 import { Link } from 'react-router-dom';
 import "../styles/Navbar.css"
 import ReorderIcon from '@mui/icons-material/Reorder';
@@ -36,7 +36,9 @@ export default class Navbar extends Component {
         <div className="rightSide">
             <Link to='/'>Home</Link>
             <Link to='/internetArt'>Art</Link>
+            <Link to='/rationale'>Rationale</Link>
             <Link to='/menu'>Theory</Link>
+            <Link to='/essay'>Essay</Link>
             <Link to='/style'>Style</Link>
             <button onClick={this.toggleNav}><ReorderIcon/></button>
         </div>

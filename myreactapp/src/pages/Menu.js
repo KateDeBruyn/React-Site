@@ -17,7 +17,17 @@ export default class Menu extends Component {
             })}
         </div>
         <h2 className='menuTitle'>Theory Content</h2>
-        <article></article>
+        <article>
+            <section>
+              <h3>Internet Art Rationale</h3>
+              <div>this is info...</div>
+            </section>
+
+            <section>
+              <h3>Dev Blogs</h3>
+              <div>this is where blogs will go</div>
+            </section>
+        </article>
       </div>
     )
   }

@@ -50,6 +50,14 @@
     margin-left: 10px;
 }
 
+/*THEORY CONTENT*/
+
+.paragraph{
+    margin-left: 80px;
+    margin-right: 80px;
+    align-self: flex-start;
+}
+
 @media only screen and (max-width: 1300px) {
     .menuList{
         grid-template-columns: 1fr 1fr;

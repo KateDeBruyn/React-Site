@@ -1,6 +1,6 @@
-import emote_crying from '../assets/emote_crying.png';
-import emote_hype from '../assets/emote_hype.png';
-import emote_popcorn from '../assets/emote_popcorn.png';
+import emote_crying from '../assets/emotes/emote_crying.png';
+import emote_hype from '../assets/emotes/emote_hype.png';
+import emote_popcorn from '../assets/emotes/emote_popcorn.png';
 
 export const MenuList = [
     {
