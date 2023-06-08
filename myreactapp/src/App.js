@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
-
+import Footer from './components/Footer';
+//import {Route, Switch} from 'react-router-dom';
 // Ran into an use when trying to use Switch, so found a solution here:
 // https://stackoverflow.com/questions/63124161/attempted-import-error-switch-is-not-exported-from-react-router-dom
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-
-//import './CubismSdkForWeb-4-r.7/Samples/TypeScript/Demo/src/main.ts';
+//import Theory from './pages/Theory';
+import Menu from './pages/Menu';
 
 function App() {
   return (
@@ -16,7 +17,10 @@ function App() {
       
       <Routes>
         <Route exact path='/' element={<Home/>}/>
+        <Route exact path='/menu' element={<Menu/>}/>
       </Routes>
+
+      <Footer/>
     </div>
   )
 }

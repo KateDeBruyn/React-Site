@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import "../styles/Home.css";
 import HomepageImg from '../assets/HD-wallpaper-rose-garden-garden-fantasy-rose-backdrop.jpg';
 
@@ -9,7 +9,7 @@ export default class Home extends Component {
         <div className='headerContainer'>
           <h1>The Rose Garden</h1>
           <p>Home of Keightyrose</p>
-          <iframe width={1280} height={720} src='../assets/CubismSdkForWeb-4-r.7/Samples/TypeScript/Demo/index.html'></iframe>
+          {/*<iframe width={1280} height={720} src='../assets/CubismSdkForWeb-4-r.7/Samples/TypeScript/Demo/index.html'></iframe>*/}
         </div> 
       </div>
     )
