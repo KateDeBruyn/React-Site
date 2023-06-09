@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/Theory.css'
+import GreenRoses from '../assets/shutterstock_185445815.jpg';
 
 //Imagery
 import Layers from '../assets/theory/Layers.png';
@@ -11,12 +12,11 @@ import Tomari from '../assets/theory/Tomari.jpg';
 export default class Essay extends Component {
   render() {
     return (
-      <div>
-        <article>
+      <div className='content' style={{backgroundImage: `url(${GreenRoses})`}}>
+        <article className='foreground'>
         <section>
-              <h3>Essay</h3>
-              <div className='paragraph'>
-                <p>Over the years, 2D and 3D modelling and animating has seeped into many different industries. 
+              <h1 className='main-heading'>Vtubers from a Conceptual, Aesthetic and Technical POV</h1>
+                <p className='paragraph'>Over the years, 2D and 3D modelling and animating has seeped into many different industries. 
                   Typically, we would find modelling and animation closely tied to film and game design industries. 
                   However, in more recent years, modelling and animation has made its way to the internet through 
                   livestreaming and media platforms like YouTube and Twitch. Vtubing and Vtubers are one of the 
@@ -27,12 +27,12 @@ export default class Essay extends Component {
                   In this text I will be analysing a Vtuber rig from the character Niwwu, a Twitch streamer who has dawned 
                   the persona of a strawberry cat girl who owns a cat café.
                 </p>
-                <img
-                class=""
+                <img 
+                className="wireframes-img"
                 src={Niwwu}
                 alt="A screenshot of the vtuber, Niwwu"
                 />
-                <p>
+                <p className='paragraph'>
                 This is Niwwu's typical character model, also referred to as avatar. She has strawberry pink hair and 
                 cat ears and wears a Japanese inspired maiden outfit. Here Niwwu is against a backdrop of her neko, cat, 
                 café desserts, the context in which this streamer exists. Vtuber's often dawn a fictional persona and 
@@ -51,11 +51,11 @@ export default class Essay extends Component {
                 usual character model looks like.
                 </p>
                 <img
-                class=""
+                className="wireframes-img"
                 src={NiwwuRigging}
                 alt="A screenshot of the vtuber, Niwwu"
                 />
-                <p>
+                <p className='paragraph'>
                 Nearly each feature of vtuber models is drawn separately from one another so that it can be rigged and 
                 animated independently. For example, the mouth is usually divided into the top lip, top teeth, tongue, 
                 inside the mouth, bottom teeth, and the bottom lip. Each of these features are rigged using meshes that 
@@ -69,11 +69,11 @@ export default class Essay extends Component {
                 is an example of what and how features are typically separated and thus animated individually. 
                 </p>
                 <img
-                class=""
+                className="wireframes-img"
                 src={Layers}
                 alt="Different facial features on different layers from a vtuber anatomy drawing"
                 />
-                <p>
+                <p className='paragraph'>
                 Every step of the design process in making a vtuber model is important. Good drawing sets you up for 
                 better animating, and better animations set you up for smoother facial tracking output. You can get the 
                 most out of your expressions if every step of the design process was done with care. And what this is 
@@ -87,7 +87,7 @@ export default class Essay extends Component {
                 emphasise this. But not only are most vtuber model's 'human' in presentation, their movement, physics, 
                 and expressions give life to any 2D or 3D avatar too and this is how viewers connect with the vtuber. 
                 </p>
-                <p>
+                <p className='paragraph'>
                 Niwwu connects with her audience by falling into the kawaii, cute, category of vtubers. She is a cute, 
                 almost chibi styled character that is represented by her big, round strawberry eyes, puffy pigtails, 
                 and small body. Not only does she exaggerate her features, but she emphasises a lot of her lore in 
@@ -104,7 +104,7 @@ export default class Essay extends Component {
                 be had in real life or in person. I also define Niwwu as an artwork not only because of the model's design, 
                 but because of the nuanced character development that accompanies and brings life to the drawn and animated art. 
                 </p>
-                <p>
+                <p className='paragraph'>
                 Niwwu has many ways in which you can engage with her during her livestreams. Having an internet connection 
                 allows you to watch Niwwu live on Twitch and accumulate Twitch's in-channel currency called channel points. 
                 The longer you watch, the more points you gain and are able to spend. Channel points are spent to redeem 
@@ -115,11 +115,11 @@ export default class Essay extends Component {
                 and put her in jail. Below is a screenshot of Niwwu in a blanket after a viewer redeemed that interaction.
                 </p>
                 <img
-                class=""
+                className="wireframes-img"
                 src={NiwwuBlanket}
                 alt="A screenshot of the vtuber, Niwwu"
                 />
-                <p>
+                <p className='paragraph'>
                 The internet allows for these unique interactions and engagements between Niwwu and her community, and on 
                 a more broader level, between an artwork and its audience. Niwwu's artistry reminds me of what Carrier 
                 (2020) notes, “the next generation of artists will very likely work for the internet more than for the 
@@ -127,7 +127,7 @@ export default class Essay extends Component {
                 exists online. So, I argue that the next generation of artists not only work on and for the internet, 
                 but their original and its aura are bound to the internet already, like in the context of vtubers.
                 </p>
-                <p>
+                <p className='paragraph'>
                 The other topic I would like to address now is that of vtuber identity and gender expression, specifically 
                 focusing on the latter. I wanted to include this in the analysis because I feel it is another way in 
                 which the internet is being harnessed and how internet art is allowing users to express themselves. The 
@@ -138,11 +138,11 @@ export default class Essay extends Component {
                 Mari's character model to address thoughts and questions around gender expression in Vtubing.
                 </p>
                 <img
-                class=""
+                className="wireframes-img"
                 src={Tomari}
                 alt="A screenshot of the vtuber, Niwwu"
                 />
-                <p>
+                <p className='paragraph'>
                 Above is an image of Tomari Mari, a young rabbit girl who has been described as highly sociable, polite, 
                 cheerful, and feminine (Otapedia). She follows typical anime design conventions which include but are not 
                 limited to fair skin, blushed cheeks, a round face with a pointed chin, a small and usually undefined 
@@ -151,7 +151,7 @@ export default class Essay extends Component {
                 female incarnation'. These avatars typically take on an anime style appearance and are referred to as 
                 bishōjo, a beautiful and kawaii (cute) girl.
                 </p>
-                <p>
+                <p className='paragraph'>
                   I feel the term 'incarnation' is perfect as it highlights some of the reasons behind babiniku vtubers by 
                   inferring the desire to embody femininity. Incarnation is an embodiment of something other. For men who 
                   may feel constricted in their real-life physical body, the accessibility of a different virtual body 
@@ -180,7 +180,7 @@ export default class Essay extends Component {
                   emotional states to the public. But what babiniku vtubers truly represent to me is the ability for the internet 
                   and internet art to offer spaces of gender expression.
                 </p>
-                <p>
+                <p className='paragraph'>
                 I have attempted to address both the conceptual, aesthetic and technical aspects of vtubing as an internet art 
                 form as well as touch on what internet art affords humans online. The underpinning note here is how internet 
                 functions as a medium to facilitate these artworks. The modelling and animation industry has become a field 
@@ -188,7 +188,7 @@ export default class Essay extends Component {
                 Hopefully we will see more psychological and philosophical research on vtubers as the craft grows as it offers 
                 us insight into what makes us online humans.
                 </p>
-                <p>
+                <p className='paragraph'>
                 References
                 <br/>
                 Bredikhina, L. (2020). Designing identity in VTuber Era. Available at: https://www.researchgate.net/publication/363587218_Designing_identity_in_VTuber_Era.  Accessed: 30 March 2023.
@@ -197,7 +197,6 @@ export default class Essay extends Component {
                 <br/>
                 Tomari Mari - Vtuber. Otapedia. Available at: https://otakumode.com/otapedia/creator/vtuber/tomari_mari.
                 </p>
-              </div>
             </section>
         </article>
       </div>

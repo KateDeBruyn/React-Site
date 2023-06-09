@@ -10,6 +10,8 @@ import Home from './pages/Home';
 //import Theory from './pages/Theory';
 import Menu from './pages/Menu';
 import Essay from './pages/Essay';
+import Design from './pages/Design';
+import Rationale from './pages/Rationale';
 
 function App() {
   return (
@@ -18,8 +20,10 @@ function App() {
       
       <Routes>
         <Route exact path='/' element={<Home/>}/>
-        <Route exact path='/menu' element={<Menu/>}/>
+        <Route exact path='/rationale' element={<Rationale/>}/>
+        {/*<Route exact path='/menu' element={<Menu/>}/>*/}
         <Route exact path='/essay' element={<Essay/>}/>
+        <Route exact path='/design' element={<Design/>}/>
       </Routes>
 
       <Footer/>
