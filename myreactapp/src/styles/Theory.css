@@ -32,6 +32,10 @@
     font-size: 20px;
 }
 
+.hyperlink{
+    color: rgb(253, 249, 223);
+}
+
 .wireframes-img{
     width: auto;
     height: auto;
@@ -41,6 +45,16 @@
 }
 
 @media only screen and (max-width: 900px) {
+    .foreground{
+        width: 850px;
+        margin: 10px 20px;
+        background: rgb(1, 48, 38);
+        color: rgb(253, 249, 223);
+        border: rgb(1, 48, 38) 2px solid;
+        border-radius: 15px;
+        box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    }
+    
     .wireframes-img{
         width: 100%;
         height: auto;
@@ -51,7 +65,7 @@
 
 @media only screen and (max-width: 600px) {
     .wireframes-img{
-        width: auto;
+        width: 600px;
         height: auto;
         margin: 50px;
         align-items: center;

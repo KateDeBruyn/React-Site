@@ -37,7 +37,7 @@ export default class Design extends Component {
                 <h2 className='section-title'>Stylesheet</h2>
                 <img className="wireframes-img"
                 src={Stylesheet}
-                alt=""
+                alt="A wireframe for my stylesheet."
                 />
                 <p className='paragraph'>
                 This stylesheet represents the theme that I've taken on for this
@@ -53,7 +53,7 @@ export default class Design extends Component {
                 <img
                 className="wireframes-img"
                 src={HomeWF}
-                alt=""
+                alt="A wireframe for my home page."
                 />
                 <p className='paragraph'>
                   This is the intended look for the index page after I found some inspiration from searching 
@@ -77,7 +77,7 @@ export default class Design extends Component {
                 <h2 className='section-title'>Art Wireframe</h2>
                 <img className="wireframes-img"
                 src={ArtWF}
-                alt=""
+                alt="A wireframe for my art page."
                 />
                 <p className='paragraph'>
                   My art section will contain a WebGL interface where my vtuber rig will be displayed and interacted with. I 
@@ -96,7 +96,7 @@ export default class Design extends Component {
                 <h2 className='section-title'>Theory Wireframe</h2>
                 <img className="wireframes-img"
                 src={TheoryWF}
-                alt=""
+                alt="A wireframe for my theory page."
                 />
                 <p className='paragraph'>
                 I aim to design my theory page this way (and align it in a similar fashion to my previous blog pages). 
@@ -134,8 +134,15 @@ export default class Design extends Component {
                 <h2 className='section-title'>Design Wireframe</h2>
                 <img className="wireframes-img"
                 src={DesignWF}
-                alt=""
+                alt="A wireframe for my design page."
                 />
+            </section>
+            <section>
+              <p className='paragraph'>
+              References:
+              <br/>
+              Ellis, M. 2018. Web design, web development, UI and UX: What's the difference and which do you need? 99designs. Available at: https://99designs.com/blog/web-digital/web-design-development-ui-ux-difference/#:~:text=User%20Interface%20(UI)%20%E2%80%94%20A,using%20the%20site%20or%20app. (Accessed: 4 June 2023)
+              </p>
             </section>
         </article>
         

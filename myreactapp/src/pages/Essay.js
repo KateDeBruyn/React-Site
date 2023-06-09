@@ -53,7 +53,7 @@ export default class Essay extends Component {
                 <img
                 className="wireframes-img"
                 src={NiwwuRigging}
-                alt="A screenshot of the vtuber, Niwwu"
+                alt="A screenshot of the vtuber, Niwwu, rigging her character model."
                 />
                 <p className='paragraph'>
                 Nearly each feature of vtuber models is drawn separately from one another so that it can be rigged and 
@@ -117,7 +117,7 @@ export default class Essay extends Component {
                 <img
                 className="wireframes-img"
                 src={NiwwuBlanket}
-                alt="A screenshot of the vtuber, Niwwu"
+                alt="A screenshot of the vtuber, Niwwu, wrapped in a blanket."
                 />
                 <p className='paragraph'>
                 The internet allows for these unique interactions and engagements between Niwwu and her community, and on 
@@ -140,7 +140,7 @@ export default class Essay extends Component {
                 <img
                 className="wireframes-img"
                 src={Tomari}
-                alt="A screenshot of the vtuber, Niwwu"
+                alt="A screenshot of the vtuber, Tomari"
                 />
                 <p className='paragraph'>
                 Above is an image of Tomari Mari, a young rabbit girl who has been described as highly sociable, polite, 
