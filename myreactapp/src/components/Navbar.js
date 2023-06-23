@@ -36,10 +36,7 @@ export default class Navbar extends Component {
         <div className="rightSide">
             <Link to='/'>Home</Link>
             <Link to='/internetArt'>Art</Link>
-            <Link to='/rationale'>Rationale</Link>
-            {/*<Link to='/menu'>Theory</Link>*/}
-            <Link to='/devblogs'>Blog</Link>
-            <Link to='/essay'>Essay</Link>
+            <Link to='/menu'>Theory</Link>
             <Link to='/design'>Design</Link>
             <button onClick={this.toggleNav}><ReorderIcon/></button>
         </div>
