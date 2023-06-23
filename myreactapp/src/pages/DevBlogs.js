@@ -4,9 +4,6 @@ import BlogItem from '../components/BlogItem';
 import "../styles/DevBlogs.css"
 import { Link } from 'react-router-dom';
 
-//Imagery
-import GreenPetals from '../assets/pics/green_petals.png';
-
 export default class DevBlogs extends Component {
   render() {
     return (
