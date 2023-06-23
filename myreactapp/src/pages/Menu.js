@@ -12,7 +12,7 @@ export default class Menu extends Component {
         <div className='menuList'>
             {MenuList.map((menuItem, value) => {
                 return(
-                  <Link to={menuItem.path} key={this.props.value}><MenuItem value={value} name={menuItem.name} image={menuItem.image} description={menuItem.description}/>
+                  <Link to={menuItem.path} key={this.props.value} className='menuLink'><MenuItem value={value} name={menuItem.name} image={menuItem.image} description={menuItem.description}/>
                   </Link>
 
                 )

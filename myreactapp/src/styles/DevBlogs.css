@@ -1,3 +1,9 @@
+.content{
+    width: 100%;
+    height: auto;
+    background: rgb(92, 219, 148);
+}
+
 .blog{
     width: 100%;
     height: auto;
@@ -7,9 +13,13 @@
     flex-direction: column;
 }
 
-.blog .blogTitle{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.blogLink{
+    text-decoration: none;
+}
+
+.blog .blogMainTitle{
     font-size: 60px;
+    color: rgb(5, 57, 107);
 }
 
 .blogList{
@@ -22,17 +32,19 @@
 
 /*THEORY ITEM STYLING*/
 .blogItem{
-    border-radius: 8px;
+    background-color: rgb(237, 245, 224);
+    color: rgb(5, 57, 107);
     width: 250px;
     height: 350px;
     padding: 20px;
     margin: 40px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 8px;
+    box-shadow: rgba(5, 57, 107, 1) 0px 4px 12px;
 }
 
 .blogItem:hover{
-    box-shadow: rgba(0, 0, 0, 0.7) 0px 4px 12px;
-    transition: 0.5s ease-in-out;
+    box-shadow: rgb(240, 46, 170) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    transition: 0.2s ease-in-out;
     cursor: pointer;
 }
 
@@ -46,7 +58,11 @@
     background-size: cover;
 }
 
-.blogItem h1, menuItem p{
+.blogItem h1{
+    margin-left: 10px;
+}
+
+.blogItem p{
     margin-left: 10px;
 }
 

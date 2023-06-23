@@ -1,17 +1,20 @@
 .content{
     width: 100%;
     height: auto;
+    /*background: rgb(92, 219, 148);*/
+    
     background-position: center;
-    background-repeat: repeat-y;
-    background-size:contain;
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
 }
 
 .foreground{
     width: 1250px;
-    margin: 50px 150px;
-    background: rgb(1, 48, 38);
+    margin: 50px 330px;
+    padding: 20px;
+    background: rgba(1, 48, 38, 0.97);
     color: rgb(253, 249, 223);
-    border: rgb(1, 48, 38) 2px solid;
+    /*border: rgb(1, 48, 38) 2px solid;*/
     border-radius: 15px;
     box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 }
@@ -24,15 +27,21 @@
 }
 
 .section-title{
-    margin: 5px 100px;
+    margin: 5px 52px;
 }
 
 .paragraph{
-    margin: 0px 150px 50px 50px;
+    margin: 30px;
     font-size: 20px;
 }
 
 .hyperlink{
+    color: rgb(253, 249, 223);
+}
+
+.backHyperlink{
+    text-decoration: none;
+    margin: 5px;
     color: rgb(253, 249, 223);
 }
 

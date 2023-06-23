@@ -13,8 +13,16 @@ import Essay from './pages/Essay';
 import Design from './pages/Design';
 import Rationale from './pages/Rationale';
 import Art from './pages/Art';
+
 import DevBlogs from './pages/DevBlogs';
 import DevBlog_1 from './pages/devblogs/DevBlog_1';
+import DevBlog_2 from './pages/devblogs/DevBlog_2';
+import DevBlog_3 from './pages/devblogs/DevBlog_3';
+import DevBlog_4 from './pages/devblogs/DevBlog_4';
+import DevBlog_5 from './pages/devblogs/DevBlog_5';
+import DevBlog_6 from './pages/devblogs/DevBlog_6';
+import DevBlog_7 from './pages/devblogs/DevBlog_7';
+import DevBlog_8 from './pages/devblogs/DevBlog_8';
 
 function App() {
   return (
@@ -29,6 +37,13 @@ function App() {
 
         <Route exact path='/devblogs' element={<DevBlogs/>}/>
         <Route exact path='/devblogone' element={<DevBlog_1/>}/>
+        <Route exact path='/devblogtwo' element={<DevBlog_2/>}/>
+        <Route exact path='/devblogthree' element={<DevBlog_3/>}/>
+        <Route exact path='/devblogfour' element={<DevBlog_4/>}/>
+        <Route exact path='/devblogfive' element={<DevBlog_5/>}/>
+        <Route exact path='/devblogsix' element={<DevBlog_6/>}/>
+        <Route exact path='/devblogseven' element={<DevBlog_7/>}/>
+        <Route exact path='/devblogeight' element={<DevBlog_8/>}/>
 
         <Route exact path='/essay' element={<Essay/>}/>
         <Route exact path='/design' element={<Design/>}/>

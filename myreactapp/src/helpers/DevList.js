@@ -4,59 +4,59 @@ import emote_popcorn from '../assets/emotes/emote_popcorn.png';
 
 export const DevList = [
     {
-        name: "Dev Blog 1",
+        name: "Blog 1",
         image: emote_crying,
         description: "Lorem Ipsum",
         path: '/devblogone'
     },
 
     {
-        name: "Dev Blog 2",
+        name: "Blog 2",
         image: emote_hype,
         description: "Lorem Ipsum",
-        path: '/Rationale'
+        path: '/devblogtwo'
     },
 
     {
-        name: "Dev Blog 3",
+        name: "Blog 3",
         image: emote_popcorn,
         description: "Lorem Ipsum",
-        path: '/DevBlogs'
+        path: '/devblogthree'
     },
 
     {
-        name: "Dev Blog 4",
+        name: "Blog 4",
         image: emote_crying,
         description: "Lorem Ipsum",
-        path: '/Essay'
+        path: '/devblogfour'
     },
 
     {
-        name: "Dev Blog 5",
+        name: "Blog 5",
         image: emote_hype,
         description: "Lorem Ipsum",
-        path: '/Rationale'
+        path: '/devblogfive'
     },
 
     {
-        name: "Dev Blog 6",
+        name: "Blog 6",
         image: emote_popcorn,
         description: "Lorem Ipsum",
-        path: '/DevBlogs'
+        path: '/devblogsix'
     },
 
     {
-        name: "Dev Blog 7",
+        name: "Blog 7",
         image: emote_hype,
         description: "Lorem Ipsum",
-        path: '/Rationale'
+        path: '/devblogseven'
     },
 
     {
-        name: "Dev Blog 8",
+        name: "Blog 8",
         image: emote_popcorn,
         description: "Lorem Ipsum",
-        path: '/DevBlogs'
+        path: '/devblogeight'
     },
 
 ];
