@@ -14,6 +14,7 @@ import Design from './pages/Design';
 import Rationale from './pages/Rationale';
 import Art from './pages/Art';
 import DevBlogs from './pages/DevBlogs';
+import DevBlog_1 from './pages/devblogs/DevBlog_1';
 
 function App() {
   return (
@@ -25,7 +26,10 @@ function App() {
         <Route exact path='/internetArt' element={<Art/>}/>
         <Route exact path='/rationale' element={<Rationale/>}/>
         <Route exact path='/menu' element={<Menu/>}/>
+
         <Route exact path='/devblogs' element={<DevBlogs/>}/>
+        <Route exact path='/devblogone' element={<DevBlog_1/>}/>
+
         <Route exact path='/essay' element={<Essay/>}/>
         <Route exact path='/design' element={<Design/>}/>
       </Routes>
