@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Theory.css'
-import GreenRoses from '../assets/shutterstock_185445815.jpg';
+import ModernGreen from '../assets/pics/modern_floral_green.png';
 import Moodboard from '../assets/Moodboard.png';
 import NoraCatReveal from '../assets/NoraCatReveal.png';
 
@@ -9,7 +9,7 @@ import NoraCatReveal from '../assets/NoraCatReveal.png';
 export default class Rationale extends Component {
   render() {
     return (
-      <div className='content' style={{backgroundImage: `url(${GreenRoses})`}}>
+      <div className='content' style={{backgroundImage: `url(${ModernGreen})`}}>
         <article className='foreground'>
             <section>
             <h1 className='main-heading'>Artwork Rationale</h1>

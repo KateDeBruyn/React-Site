@@ -5,7 +5,7 @@ import MenuItem from '../components/MenuItem.js';
 import "../styles/Menu.css";
 
 //Imagery
-import ModernFl from '../assets/pics/modern_floral.jpg';
+import ModernGreen from '../assets/pics/modern_floral_green.png';
 import ArtWF from '../assets/wireframes/Wireframe_Art.png';
 import DesignWF from '../assets/wireframes/Wireframe_Design.png';
 import HomeWF from '../assets/wireframes/Wireframe_Home.png';
@@ -15,7 +15,7 @@ import Stylesheet from '../assets/Stylesheet.png'
 export default class Design extends Component {
   render() {
     return (
-      <div className='content' style={{backgroundImage: `url(${ModernFl})`}}>
+      <div className='content' style={{backgroundImage: `url(${ModernGreen})`}}>
         <article className='foreground'>
             <h1 className='main-heading'>Wireframes and Style Guide</h1>
             <p className='paragraph'>

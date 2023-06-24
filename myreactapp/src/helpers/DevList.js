@@ -45,18 +45,4 @@ export const DevList = [
         path: '/devblogsix'
     },
 
-    {
-        name: "Blog 7",
-        image: emote_hype,
-        description: "Lorem Ipsum",
-        path: '/devblogseven'
-    },
-
-    {
-        name: "Blog 8",
-        image: emote_popcorn,
-        description: "Lorem Ipsum",
-        path: '/devblogeight'
-    },
-
 ];

@@ -21,8 +21,6 @@ import DevBlog_3 from './pages/devblogs/DevBlog_3';
 import DevBlog_4 from './pages/devblogs/DevBlog_4';
 import DevBlog_5 from './pages/devblogs/DevBlog_5';
 import DevBlog_6 from './pages/devblogs/DevBlog_6';
-import DevBlog_7 from './pages/devblogs/DevBlog_7';
-import DevBlog_8 from './pages/devblogs/DevBlog_8';
 
 import { PointsProvider } from './helpers/PointsContext';
 
@@ -45,8 +43,6 @@ function App() {
         <Route exact path='/devblogfour' element={<DevBlog_4/>}/>
         <Route exact path='/devblogfive' element={<DevBlog_5/>}/>
         <Route exact path='/devblogsix' element={<DevBlog_6/>}/>
-        <Route exact path='/devblogseven' element={<DevBlog_7/>}/>
-        <Route exact path='/devblogeight' element={<DevBlog_8/>}/>
 
         <Route exact path='/essay' element={<Essay/>}/>
         <Route exact path='/design' element={<Design/>}/>

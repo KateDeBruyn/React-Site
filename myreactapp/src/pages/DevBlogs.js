@@ -4,10 +4,12 @@ import BlogItem from '../components/BlogItem';
 import "../styles/DevBlogs.css"
 import { Link } from 'react-router-dom';
 
+import ModernGreen from '../assets/pics/modern_floral_green.png';
+
 export default class DevBlogs extends Component {
   render() {
     return (
-      <div className='content'>
+      <div className='content' style={{backgroundImage: `url(${ModernGreen})`}}>
         <div className='blog'>
         <h1 className='blogMainTitle'>Developer Blogs</h1>
         <div className='blogList'>

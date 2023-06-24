@@ -4,10 +4,12 @@ import MenuItem from '../components/MenuItem.js';
 import "../styles/Menu.css";
 import { Link } from 'react-router-dom';
 
+import ModernGreen from '../assets/pics/modern_floral_green.png';
+
 export default class Menu extends Component {
   render() {
     return (
-      <div className='menu'>
+      <div className='menu' style={{backgroundImage: `url(${ModernGreen})`}}>
         <h1 className='menuTitle'>Theory Page</h1>
         <div className='menuList'>
             {MenuList.map((menuItem, value) => {

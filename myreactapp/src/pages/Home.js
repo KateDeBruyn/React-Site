@@ -7,6 +7,8 @@ import PointButton from '../components/PointsButton';
 import GreenFloral from '../assets/pics/modern_floral_green.png';
 import EmoteHey from '../assets/emotes/emote_hey.png';
 import Rig from '../assets/Rig.png';
+import SliderImg from '../assets/pics/SliderImg.png';
+import { Slider } from '@mui/material';
 
 export default class Home extends Component {
   render() {
@@ -50,9 +52,10 @@ export default class Home extends Component {
                 />
         </div>
         <div className='index-item'>
-        <p>Hi! I'm Keightyrose. A fourth year Game Design student who is also majoring in 
-          interactive media.
-        </p>
+        <img className="img-responsive"
+                src={SliderImg}
+                alt="A Chibi emote of Keightyrose, waving hello."
+                />
         </div>
         </div>
       </div>

@@ -4,7 +4,7 @@
 import React, { useContext, useState } from 'react';
 import { PointsContext } from '../helpers/PointsContext';
 import '../styles/PointsButton.css';
-import RoseEmote from '../assets/pics/yellowRose72x72.png';
+import RoseEmote from '../assets/pics/greenRose72x72.png';
 
 
 const PointButton = () => {

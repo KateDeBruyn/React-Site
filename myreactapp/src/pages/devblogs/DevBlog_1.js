@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import '../../styles/Theory.css'
 import { Link } from 'react-router-dom';
-import ModernFl from '../../assets/pics/modern_floral.jpg';
+import ModernGreen from '../../assets/pics/modern_floral_green.png';
 
 export default class DevBlog_1 extends Component {
   render() {
     return (
-      <div className='content' style={{backgroundImage: `url(${ModernFl})`}}>
+      <div className='content' style={{backgroundImage: `url(${ModernGreen})`}}>
         <article className='foreground'>
         <Link to='/devblogs' className='backHyperlink'>&lt; Back to blogs</Link>
         <h1 className='main-heading'>Dev Blog One</h1>

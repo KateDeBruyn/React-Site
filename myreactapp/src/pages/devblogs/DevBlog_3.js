@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import '../../styles/Theory.css'
-import GreenRoses from '../../assets/shutterstock_185445815.jpg';
+import ModernGreen from '../../assets/pics/modern_floral_green.png';
 
 
 export default class DevBlog_3 extends Component {
@@ -15,7 +15,7 @@ render(){
     const tsCompiling = 'https://code.visualstudio.com/docs/typescript/typescript-compiling';
 
     return (
-      <div className='content' style={{backgroundImage: `url(${GreenRoses})`}}>
+      <div className='content' style={{backgroundImage: `url(${ModernGreen})`}}>
         <article className='foreground'>
         <h1 className='main-heading'>Dev Blog Three</h1>
             <section>
