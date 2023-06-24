@@ -21,6 +21,11 @@
     color: rgb(5, 57, 107);
 }
 
+.button-position{
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
 .index-container{
     max-width: 1400px;
     margin: 0px auto;

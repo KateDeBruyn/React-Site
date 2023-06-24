@@ -1,0 +1,21 @@
+.rose-button{
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: rgba(5, 57, 107, 1) 0px 4px 4px;
+    
+}
+
+.rose-button:hover{
+    cursor: pointer;
+}
+
+.points-txt{
+    text-align: center;
+    margin: 0px;
+    margin-right: 150px;
+    font-size: 15px;
+    color: rgb(5, 57, 107);
+}

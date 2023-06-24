@@ -24,11 +24,14 @@ import DevBlog_6 from './pages/devblogs/DevBlog_6';
 import DevBlog_7 from './pages/devblogs/DevBlog_7';
 import DevBlog_8 from './pages/devblogs/DevBlog_8';
 
+import { PointsProvider } from './helpers/PointsContext';
+
 function App() {
   return (
     <div className="App"> 
       <Navbar/>
       
+      <PointsProvider>
       <Routes>
         <Route exact path='/' element={<Home/>}/>
         <Route exact path='/internetArt' element={<Art/>}/>
@@ -48,7 +51,8 @@ function App() {
         <Route exact path='/essay' element={<Essay/>}/>
         <Route exact path='/design' element={<Design/>}/>
       </Routes>
-
+      </PointsProvider>
+      
       <Footer/>
     </div>
   )

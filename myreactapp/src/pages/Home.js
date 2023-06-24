@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "../styles/Home.css";
+import PointButton from '../components/PointsButton';
 
 //Imagery
 //import HomepageImg from '../assets/HomePageImg.png';
@@ -31,6 +32,9 @@ export default class Home extends Component {
         </div>
         <div className='index-item'>
         <h2 className='item-title'>Earn Roses by exploring the website!</h2>
+        <div className='button-position'>
+        <PointButton />
+        </div>
         </div>
         </div>
 
