@@ -6,6 +6,7 @@
     border: none;
     box-shadow: rgba(5, 57, 107, 1) 0px 4px 4px;
     
+    
 }
 
 .rose-button:hover{
@@ -18,4 +19,6 @@
     margin-right: 150px;
     font-size: 15px;
     color: rgb(5, 57, 107);
+    background-color: white;
+    
 }

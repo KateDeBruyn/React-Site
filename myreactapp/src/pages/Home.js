@@ -8,9 +8,12 @@ import GreenFloral from '../assets/pics/modern_floral_green.png';
 import EmoteHey from '../assets/emotes/emote_hey.png';
 import Rig from '../assets/Rig.png';
 import SliderImg from '../assets/pics/SliderImg.png';
-import { Slider } from '@mui/material';
 
 export default class Home extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+  
   render() {
     return (
       <div className="home" style={{backgroundImage: `url(${GreenFloral})`}}>

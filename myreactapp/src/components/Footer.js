@@ -8,7 +8,7 @@ export default class Footer extends Component {
   render() {
     return (
       <div className='footer'>
-        <h1>This is the footer</h1>
+        <h1>Thank you for checking out my website!</h1>
         <div className='socialMedia'>
         <InstagramIcon/><TwitterIcon/><YouTubeIcon/>
         </div>

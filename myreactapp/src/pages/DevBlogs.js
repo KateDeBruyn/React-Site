@@ -7,6 +7,10 @@ import { Link } from 'react-router-dom';
 import ModernGreen from '../assets/pics/modern_floral_green.png';
 
 export default class DevBlogs extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+  
   render() {
     return (
       <div className='content' style={{backgroundImage: `url(${ModernGreen})`}}>

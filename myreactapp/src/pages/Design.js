@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import '../styles/Theory.css'
+import '../styles/Theory.css';
 import { MenuList } from '../helpers/MenuList.js';
 import MenuItem from '../components/MenuItem.js';
 import "../styles/Menu.css";
+import PointButton from '../components/PointsButton';
 
 //Imagery
 import ModernGreen from '../assets/pics/modern_floral_green.png';
@@ -13,6 +14,10 @@ import TheoryWF from '../assets/wireframes/Wireframe_Theory.png';
 import Stylesheet from '../assets/Stylesheet.png'
 
 export default class Design extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+  
   render() {
     return (
       <div className='content' style={{backgroundImage: `url(${ModernGreen})`}}>
@@ -144,6 +149,9 @@ export default class Design extends Component {
               Ellis, M. 2018. Web design, web development, UI and UX: What's the difference and which do you need? 99designs. Available at: https://99designs.com/blog/web-digital/web-design-development-ui-ux-difference/#:~:text=User%20Interface%20(UI)%20%E2%80%94%20A,using%20the%20site%20or%20app. (Accessed: 4 June 2023)
               </p>
             </section>
+            <div className='button-position-page'>
+            <PointButton />
+            </div>
         </article>
         
       </div>

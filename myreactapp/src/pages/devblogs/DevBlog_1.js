@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
 import '../../styles/Theory.css'
 import { Link } from 'react-router-dom';
+import PointButton from '../../components/PointsButton';
 import ModernGreen from '../../assets/pics/modern_floral_green.png';
 
 export default class DevBlog_1 extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+  
   render() {
     return (
       <div className='content' style={{backgroundImage: `url(${ModernGreen})`}}>
@@ -29,6 +34,9 @@ export default class DevBlog_1 extends Component {
             and making efficient use of React's reconciliation algorithm. Perhaps I'll look at that for the exam if I feel 
             my site is slow.
             </p>
+            <div className='button-position-page'>
+            <PointButton />
+            </div>
             </section>
         </article>    
       </div>

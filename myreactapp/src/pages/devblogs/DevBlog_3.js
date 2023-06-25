@@ -1,10 +1,15 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import '../../styles/Theory.css'
+import '../../styles/Theory.css';
+import PointButton from '../../components/PointsButton';
 import ModernGreen from '../../assets/pics/modern_floral_green.png';
 
 
 export default class DevBlog_3 extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+  
 render(){
 
     const cubismMan = 'https://docs.live2d.com/en/cubism-sdk-manual/use-framework-web/';
@@ -47,6 +52,9 @@ render(){
             <br/>
             </p>
             </section>
+            <div className='button-position-page'>
+            <PointButton />
+            </div>
         </article>    
       </div>
     )

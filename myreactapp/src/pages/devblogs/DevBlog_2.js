@@ -1,11 +1,16 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import '../../styles/Theory.css'
+import PointButton from '../../components/PointsButton';
 import GreenRoses from '../../assets/shutterstock_185445815.jpg';
 import Live2D from '../../assets/Live2D.png';
 import ModernGreen from '../../assets/pics/modern_floral_green.png';
 
 export default class DevBlog_2 extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+  
 render(){
 
     const cubismUrl = 'https://docs.live2d.com/en/cubism-sdk-tutorials/sample-build-web/';
@@ -26,6 +31,9 @@ render(){
                 alt="A screenshot of the Cubism Index Page showing the Vtuber Model that can follow the cursor."
                 />
             </p>
+            <div className='button-position-page'>
+            <PointButton />
+            </div>
             </section>
         </article>    
       </div>

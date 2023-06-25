@@ -23,6 +23,7 @@ import DevBlog_5 from './pages/devblogs/DevBlog_5';
 import DevBlog_6 from './pages/devblogs/DevBlog_6';
 
 import { PointsProvider } from './helpers/PointsContext';
+import GenderEssay from './pages/GenderEssay';
 
 function App() {
   return (
@@ -32,8 +33,11 @@ function App() {
       <PointsProvider>
       <Routes>
         <Route exact path='/' element={<Home/>}/>
+
         <Route exact path='/internetArt' element={<Art/>}/>
         <Route exact path='/rationale' element={<Rationale/>}/>
+        <Route exact path='/genderessay' element={<GenderEssay/>}/>
+
         <Route exact path='/menu' element={<Menu/>}/>
 
         <Route exact path='/devblogs' element={<DevBlogs/>}/>
