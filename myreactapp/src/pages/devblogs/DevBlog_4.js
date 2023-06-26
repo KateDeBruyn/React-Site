@@ -17,10 +17,7 @@ render(){
         <Link to='/devblogs' className='backHyperlink'>&lt; Back to blogs</Link>
         <h1 className='main-heading'>Dev Blog Four</h1>
             <section>
-            <date className='section-title'>date...</date>
-            <p className='paragraph'>
-            Lorem Ipsum...
-            </p>
+            <date className='section-title'>13/06/2023</date>
             <div class="video-container">
               <video controls class="video-responsive">
                 <source src={Vlog_4} type="video/mp4" />

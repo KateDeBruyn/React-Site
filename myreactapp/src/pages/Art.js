@@ -17,6 +17,9 @@ export default class Art extends Component {
         <article className='foreground'>
             <section>
             <h1 className='main-heading'>Interact with Fio</h1>
+            <p className='paragraph'>Here you can interact with Fio, my vtuber model who I design, rigged and animated through blood, sweat, and 
+            tears. Use the roses you collected throughout the website (there are tons) to redeem making Fio blush or sadge. These are typcial vtuber 
+            interactions that many streamers use when hanging out with their communities live. Enjoy!</p>
             <iframe src="https://i.simmer.io/@Keightyrose/fio-interface" className='internet-art'></iframe>
             </section>
 

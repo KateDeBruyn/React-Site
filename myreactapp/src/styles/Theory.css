@@ -8,7 +8,6 @@
 .foreground{
     width: 1250px;
     margin: 50px 330px;
-    padding: 20px;
     background: rgba(1, 48, 38, 0.97);
     color: rgb(253, 249, 223);
     /*border: rgb(1, 48, 38) 2px solid;*/
@@ -28,12 +27,12 @@
 }
 
 .paragraph{
-    margin: 50px;
+    margin: 20px 50px;
     font-size: 20px;
 }
 
 .paragraph-indented{
-    margin: 50px 150px;
+    margin: 20px 150px;
     font-size: 20px;
 }
 
@@ -73,6 +72,7 @@
     height: auto;
   }
 
+
 @media only screen and (max-width: 900px) {
     .foreground{
         width: 850px;
@@ -92,11 +92,46 @@
     }
 }
 
+
 @media only screen and (max-width: 600px) {
+    .foreground{
+        width: 500px;
+        margin: 0px;
+        background: rgb(1, 48, 38);
+        color: rgb(253, 249, 223);
+        border: rgb(1, 48, 38) 2px solid;
+        border-radius: 15px;
+        box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    }
+
+    .paragraph{
+        margin: 20px;
+        font-size: 20px;
+    }
+    
+    .paragraph-indented{
+        margin: 50px 150px;
+        font-size: 20px;
+    }
+
     .wireframes-img{
-        width: 600px;
+        width: 500px;
         height: auto;
-        margin: 50px;
+        margin: 20px;
         align-items: center;
     }
+
+    .button-position-page{
+        margin: 150px 100px;
+        background-color: rgb(253, 249, 223);
+    }
+
+    .video-container{
+        max-width: 550px;
+        margin: 20px;
+        padding: 20px;
+        display: grid;
+        grid-template-rows: 1fr;
+      }
+    
 }

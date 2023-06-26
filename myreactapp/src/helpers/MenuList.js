@@ -5,23 +5,23 @@ import emote_popcorn from '../assets/emotes/emote_popcorn.png';
 
 export const MenuList = [
     {
-        name: "Essay",
+        name: "Previous Essay",
         image: emote_crying,
-        description: "Lorem Ipsum",
+        description: "Analysis of vtuber artwork.",
         path: '/Essay'
     },
 
     {
         name: "Artwork Rationale",
         image: emote_hype,
-        description: "Lorem Ipsum",
+        description: "The what and the why.",
         path: '/Rationale'
     },
 
     {
         name: "Dev Blogs",
         image: emote_popcorn,
-        description: "Lorem Ipsum",
+        description: "Blogs and Vlogs on my progress.",
         path: '/DevBlogs'
     },
 
