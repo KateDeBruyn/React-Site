@@ -22,6 +22,7 @@ render(){
     return (
       <div className='content' style={{backgroundImage: `url(${ModernGreen})`}}>
         <article className='foreground'>
+        <Link to='/devblogs' className='backHyperlink'>&lt; Back to blogs</Link>
         <h1 className='main-heading'>Dev Blog Three</h1>
             <section>
             <date className='section-title'>06/06/2023</date>    

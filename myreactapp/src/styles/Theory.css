@@ -32,6 +32,11 @@
     font-size: 20px;
 }
 
+.paragraph-indented{
+    margin: 50px 150px;
+    font-size: 20px;
+}
+
 .hyperlink{
     color: rgb(253, 249, 223);
 }
