@@ -9,16 +9,16 @@
     flex-direction: column;
 }
 
-.menu .menuTitle{
+.menu .menu-title{
     color: rgb(5, 57, 107);
     font-size: 60px;
 }
 
-.menuLink{
+.menu-link{
     text-decoration: none;
 }
 
-.menuList{
+.menu-list{
     width: 70vw;
     height: auto;
     display: grid;
@@ -27,7 +27,7 @@
 }
 
 /*THEORY ITEM STYLING*/
-.menuItem{
+.menu-item{
     background-color: rgb(237, 245, 224);
     color: rgb(5, 57, 107);
     width: 250px;
@@ -38,13 +38,13 @@
     box-shadow: rgba(5, 57, 107, 1) 0px 4px 12px;
 }
 
-.menuItem:hover{
+.menu-item:hover{
     box-shadow: rgb(240, 46, 170) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
     transition: 0.2s ease-in-out;
     cursor: pointer;
 }
 
-.menuItem div{
+.menu-item div{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     width: 100%;
@@ -54,11 +54,11 @@
     background-size: cover;
 }
 
-.menuItem h1{
+.menu-item h1{
     margin-left: 10px;
 }
 
-.menuItem p{
+.menu-item p{
     margin-left: 10px;
 }
 
@@ -71,13 +71,13 @@
 }
 
 @media only screen and (max-width: 1300px) {
-    .menuList{
+    .menu-list{
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media only screen and (max-width: 800px) {
-    .menuList{
+    .menu-list{
         grid-template-columns: 1fr;
     }
 }

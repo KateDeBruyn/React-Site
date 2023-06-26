@@ -24,6 +24,9 @@ import DevBlog_6 from './pages/devblogs/DevBlog_6';
 
 import { PointsProvider } from './helpers/PointsContext';
 import GenderEssay from './pages/GenderEssay';
+import HomeRedesign from './pages/redesign/HomeRedesign';
+import ArtRedesign from './pages/redesign/ArtRedesign';
+import TheoryRedesign from './pages/redesign/TheoryRedesign';
 
 function App() {
   return (
@@ -49,7 +52,11 @@ function App() {
         <Route exact path='/devblogsix' element={<DevBlog_6/>}/>
 
         <Route exact path='/essay' element={<Essay/>}/>
+
         <Route exact path='/design' element={<Design/>}/>
+        <Route exact path='/homedesign' element={<HomeRedesign/>}/>
+        <Route exact path='/artdesign' element={<ArtRedesign/>}/>
+        <Route exact path='/theorydesign' element={<TheoryRedesign/>}/>
       </Routes>
       </PointsProvider>
       

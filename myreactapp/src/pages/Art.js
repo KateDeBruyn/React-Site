@@ -1,18 +1,16 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/Art.css';
 import { ArtList } from '../helpers/ArtList';
 import ArtItem from '../components/ArtItem';
-import { Link } from 'react-router-dom';
 
 import ModernGreen from '../assets/pics/modern_floral_green.png';
-
 
 export default class Art extends Component {
   componentDidMount() {
     window.scrollTo(0, 0)
   }
   
-
   render() {
     return (
       <div className='content' style={{backgroundImage: `url(${ModernGreen})`}}>
