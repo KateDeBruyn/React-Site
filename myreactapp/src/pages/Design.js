@@ -4,6 +4,7 @@ import { DesignList } from '../helpers/DesignList.js';
 import DesignItem from '../components/DesignItem.js';
 import '../styles/Theory.css';
 import '../styles/Menu.css';
+import '../styles/Design.css';
 import PointButton from '../components/PointsButton';
 
 //Imagery
@@ -33,6 +34,7 @@ export default class Design extends Component {
             </div>
             </section>
 
+            <section>
             <h1 className='main-heading'>Wireframes and Style Guide</h1>
             <p className='paragraph'>
               User Interface (UI) is a field in web design where design focuses on the controls a 
@@ -48,28 +50,43 @@ export default class Design extends Component {
               wireframes look completely off, I just wanted to give some reasoning behind the site, 
               what it looks like now and what I intend for it to look like! Thank you! </p>
             <p></p>
+            </section>
 
             <section>
-                <h2 className='section-title'>Stylesheet</h2>
-                <img className="wireframes-img"
-                src={Stylesheet}
-                alt="A wireframe for my stylesheet."
-                />
-                <p className='paragraph'>
-                This stylesheet represents the theme that I've taken on for this
-                site. It is inspired by the vtuber character I am drawing and animating
-                for my internet artwork. It's particularly inspired by her
-                eyes - bright green with pink hearts in them. I wanted the site to complement 
-                the internet art, creating a contextual house that brings out the qualities of the artwork.
-                </p>
+              <h2 className='section-title'>Stylesheet</h2>
+              <div className='design-container'>
+                <div className='design-item'>
+                  <img className="wireframes-img"
+                  src={Stylesheet}
+                  alt="A wireframe for my stylesheet."
+                  />
+                </div>
+                <div className='design-item'>
+                  <p className='paragraph'>
+                  This stylesheet represents the theme that I've taken on for this
+                  site. It is inspired by the vtuber character I am drawing and animating
+                  for my internet artwork. It's particularly inspired by her
+                  eyes - bright green with pink hearts in them. I wanted the site to complement 
+                  the internet art, creating a contextual house that brings out the qualities of the artwork.
+                  </p>
+                </div>
+              </div>
+                
+                
             </section>
 
             <section>
                 <h2 className='section-title'>Design Wireframe</h2>
-                <img className="wireframes-img"
-                src={DesignWF}
-                alt="A wireframe for my design page."
-                />
+                <div className='design-container'>
+
+                  <div className='design-item'>
+                    <img className="wireframes-img"
+                      src={DesignWF}
+                      alt="A wireframe for my design page."
+                    />
+                  </div>
+                </div>
+                
             </section>
             <section>
               <p className='paragraph'>

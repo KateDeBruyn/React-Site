@@ -14,11 +14,11 @@ export default class Menu extends Component {
   render() {
     return (
       <div className='menu' style={{backgroundImage: `url(${ModernGreen})`}}>
-        <h1 className='menuTitle'>Theory Page</h1>
-        <div className='menuList'>
+        <h1 className='menu-title'>Theory Page</h1>
+        <div className='menu-list'>
             {MenuList.map((menuItem, value) => {
                 return(
-                  <Link to={menuItem.path} key={this.props.value} className='menuLink'><MenuItem value={value} name={menuItem.name} image={menuItem.image} description={menuItem.description}/>
+                  <Link to={menuItem.path} key={this.props.value} className='menu-link'><MenuItem value={value} name={menuItem.name} image={menuItem.image} description={menuItem.description}/>
                   </Link>
 
                 )

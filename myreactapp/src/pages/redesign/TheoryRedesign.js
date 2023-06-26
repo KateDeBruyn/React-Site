@@ -6,6 +6,7 @@ import PointButton from '../../components/PointsButton';
 //Imagery
 import ModernGreen from '../../assets/pics/modern_floral_green.png';
 import TheoryWF from '../../assets/wireframes/Wireframe_Theory.png';
+import NewTheoryWF from '../../assets/wireframes/New_WF_Theory.png';
 
 export default class TheoryRedesign extends Component {
   componentDidMount() {
@@ -16,8 +17,20 @@ export default class TheoryRedesign extends Component {
     return (
       <div className='content' style={{backgroundImage: `url(${ModernGreen})`}}>
         <article className='foreground'>
+        <Link to='/design' className='backHyperlink'>&lt; Back to main design page</Link>
           <section>
-                <h1 className='main-heading'>Theory Wireframe</h1>
+          <h1 className='main-heading'>New Theory Wireframe</h1>
+                <img className="wireframes-img"
+                src={NewTheoryWF}
+                alt="A new wireframe for my theory page."
+                />
+                <p className='paragraph'>
+                Because of time constraints, I couldn't achieve my initial plan. So I opted for something that was reusable and effective 
+                which is where React shines. I knew my other layouts similar to this looked neat and the information was concise for the user.
+                </p>
+          </section>
+          <section>
+                <h2 className='main-heading'>Old Theory Wireframe</h2>
                 <img className="wireframes-img"
                 src={TheoryWF}
                 alt="A wireframe for my theory page."
@@ -42,8 +55,10 @@ export default class TheoryRedesign extends Component {
                   fairly complex to do because I couldn't really figure out how the helper, component and page all work together. I couldn't
                   use my own naming conventions because it did not work, so I stuck to what Andre had laid out. 
                 </p>
-            </section>
-
+          </section>
+          <div className='button-position-page'>
+            <PointButton />
+            </div>
         </article>
       </div>
     )
